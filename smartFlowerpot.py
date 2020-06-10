@@ -45,6 +45,7 @@ class DatabaseControl:
         return Pump,LED,Fan #하드웨어의 상태를 각각의 변수에 담아서 리턴
     
     def bringPlantRequireInfo(self):
+        #2018038092 안준
         #식물이 필요한 상태값 가져오기 
         #화분을 제어하기 위해 각 식물에게 필요한 값을 DB로부터 전달 받아야한다. 
         #화분이 필요로하는 값들을 반환하고 그 값을 기준으로 펌프나,LED.팬 등을 작동시킨다.
