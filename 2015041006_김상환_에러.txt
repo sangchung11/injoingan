@@ -1,0 +1,12 @@
+1.cleartext http not permit 
+-> manifest에서 http수락
+2. config 에러
+->xml resource생성후 manifests에서 networkSecurityConfig에서 만든파일 지정
+3. CleartextTraffic 에러
+-> menifests에서 usesCleartextTraffic 수락으로 변경
+4. 인터넷 연결 에러
+-> 일반실행이 아닌 Tool메뉴의 AVD매니저로 'cold boot now' 로 실행
+5. networking 에러
+-> AsyncTask를 사용해 메소드 만듬
+6. 앱 튕김
+-> 네트워크 연결을 async를 사용해 메소드를 만듦으로써 해결
